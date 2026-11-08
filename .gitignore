@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# virtualenv (the launcher creates it on first run)
+venv/
+
+# test music / sample folders
+Music/
+test_music/
+*.mp3
+*.flac
+*.m4a
+*.ogg
+
+# secrets — never commit your real Genius credentials
+genius.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Buildozer & Android
+.buildozer/
+bin/
+*.apk
+*.aab
