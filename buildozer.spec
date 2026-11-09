@@ -64,7 +64,7 @@ android.accept_sdk_license = True
 android.archs = arm64-v8a, armeabi-v7a
 
 # (str) Entry point file
-android.entrypoint = mobile_app.py
+# android.entrypoint = main.py
 
 # (bool) Copy library instead of making a libpymodules.so
 android.copy_libs = 1

@@ -65,12 +65,11 @@ wsl --install -d Ubuntu
 ### 2. Install prerequisites in Ubuntu
 ```bash
 sudo apt update
-sudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf \
-    libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev \
-    libtinfo5 cmake libffi-dev libssl-dev
+sudo apt install -y git zip unzip openjdk-17-jdk python3-pip python3-setuptools autoconf \
+    libtool pkg-config zlib1g-dev libncurses-dev cmake libffi-dev libssl-dev
 
 pip install --upgrade pip
-pip install buildozer cython==0.29.36 virtualenv
+pip install buildozer cython virtualenv
 ```
 
 ### 3. Build the APK
