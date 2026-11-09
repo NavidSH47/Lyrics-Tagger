@@ -60,8 +60,8 @@ android.skip_update = False
 android.accept_sdk_license = True
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-# For modern Android phones, arm64-v8a is the standard.
-android.archs = arm64-v8a, armeabi-v7a
+# arm64-v8a is the modern standard for Android 8+ devices and builds much faster.
+android.archs = arm64-v8a
 
 # (str) Entry point file
 # android.entrypoint = main.py
